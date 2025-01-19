@@ -1,4 +1,5 @@
 import { addElementSpecificPositionArray, custonObjectSort, daysOfWeek, fibonnaci, fill, findIndexMethod, findMethod, forOf, from, functionInteration, includeMethod, indexOfFind, insertingElementBeginningOfArray, insertingElementEndOfArray, joinningArrays, lastIndexOfFind, MultiDimensionalArrays, numberSort, numberSortReverse, reduceArray, removingElementBeginningOfArray, removingElementEndOfArray, stringCaseSensitiveAccentSort, stringSort, stringSortReserve, twoDimensionalArrays } from "./arrays";
+import { TurnArrayIntoString, TurnStringIntoArray, TurnStringIntoNumber } from "./strings-and-numbers";
 
 /***********
     Arrays
@@ -28,3 +29,6 @@ import { addElementSpecificPositionArray, custonObjectSort, daysOfWeek, fibonnac
 //console.log(findMethod())
 //console.log(findIndexMethod())
 //console.log(includeMethod())
+//console.log(TurnArrayIntoString())
+//console.log(TurnStringIntoArray())
+//console.log(TurnStringIntoNumber())
