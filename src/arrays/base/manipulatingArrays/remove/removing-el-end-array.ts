@@ -5,7 +5,6 @@ export function removingElementEndOfArray(){
 
     array.pop()
     
-    //now we have just four
     console.log(array)
 
     return ''
