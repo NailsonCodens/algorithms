@@ -1,1 +1,1 @@
-import { containsDuplicateBruteForce, containsDuplicateSorting } from "./contains_duplicate";
+import { containsDuplicateBruteForce, containsDuplicateSorting, TwoSumHashMap } from "./contains_duplicate";

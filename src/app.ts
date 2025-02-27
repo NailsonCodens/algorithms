@@ -1,4 +1,4 @@
-import { containsDuplicateBruteForce, containsDuplicateSorting } from "./algorithms/contains_duplicate";
+import { anagramBruteForce, anagramHashTable, containsDuplicateBruteForce, containsDuplicateSorting, twoSumBruteForce, TwoSumHashMap } from "./algorithms/contains_duplicate";
 import { addElementSpecificPositionArray, custonObjectSort, daysOfWeek, fibonnaci, fill, findIndexMethod, findMethod, forOf, from, functionInteration, includeMethod, indexOfFind, insertingElementBeginningOfArray, insertingElementEndOfArray, joinningArrays, lastIndexOfFind, MultiDimensionalArrays, numberSort, numberSortReverse, reduceArray, removingElementBeginningOfArray, removingElementEndOfArray, stringCaseSensitiveAccentSort, stringSort, stringSortReserve, twoDimensionalArrays } from "./arrays";
 import { TurnArrayIntoString, TurnStringIntoArray, TurnStringIntoNumber } from "./strings-and-numbers";
 
@@ -41,10 +41,19 @@ import { TurnArrayIntoString, TurnStringIntoArray, TurnStringIntoNumber } from "
 /***********
     Easy Algorithms
 ************/
-console.log(
+/*console.log(
     containsDuplicateBruteForce([1,2,3,4,5,6,7,3])
 )
 
 console.log(
     containsDuplicateSorting([1,2,3,4,5,6,7,3])    
 )
+*/
+
+/*console.log(anagramBruteForce('racecar', 'carrace'))*/
+
+/*console.log(anagramHashTable('racecar', 'carrace'))*/
+
+//console.log(twoSumBruteForce([1,4,3,5,2,8], 7))
+
+console.log(TwoSumHashMap([1,4,3,5,2,8], 8))
