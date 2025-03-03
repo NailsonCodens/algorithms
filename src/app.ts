@@ -69,3 +69,45 @@ console.log(
 //console.log(maxProfitTwoPinters([10,1,5,6,7,1]))
 
 console.log(maxProfitBuySellTwoPointers([10,1,5,6,7,1]))
+
+
+/***
+ * 
+ * structure datas:
+ * 
+ */
+
+const hashTable = {};
+
+hashTable["name"] = "Alice";
+hashTable["age"] = 25;
+
+console.log(hashTable); // Alice
+console.log(hashTable["age"]); // 25
+
+console.log(hashTable)
+
+const map = new Map();
+map.set("name", "Alice");
+map.set("age", 25);
+
+console.log(map)
+
+
+const stack = []
+stack.push(10)
+stack.push(20)
+stack.push(30)
+stack.pop() //30
+stack.pop() //20
+
+console.log(stack)
+
+const queue = []
+
+queue.push(10)
+queue.push(20)
+queue.push(30)
+queue.shift()
+
+console.log(queue)
